@@ -40,10 +40,8 @@ This project was developed as a **Final Project / Undergraduate Thesis** at **Po
 flood-monitoring-iot/
 ├── src/                # Arduino source code
 ├── docs/               # Documentation (PDF, diagrams, images)
-├── data/               # Testing results & datasets
 ├── README.md           # Project documentation
-├── LICENSE             # License file (optional)
-└── .gitignore
+
 ```
 
 ---
