@@ -57,7 +57,7 @@ flood-monitoring-iot/
 1. Clone the repository:  
    ```bash
    git clone https://github.com/natael221/ProjectAkhir-Flood-monitoring-iot.git
-   cd flood-monitoring-iot
+   cd ProjectAkhir-Flood-monitoring-iot
    ```
 2. Open `src/main.ino` in Arduino IDE.  
 3. Install required libraries (MQTT, SoftwareSerial, etc.).  
