@@ -36,3 +36,52 @@ This project was developed as a **Final Project / Undergraduate Thesis** at **Po
 ---
 
 ## 📂 Repository Structure
+```
+flood-monitoring-iot/
+├── src/                # Arduino source code
+├── docs/               # Documentation (PDF, diagrams, images)
+├── data/               # Testing results & datasets
+├── README.md           # Project documentation
+├── LICENSE             # License file (optional)
+└── .gitignore
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Arduino IDE installed  
+- SIM card with active 2G network  
+- HiveMQ broker or any MQTT broker  
+
+### Installation
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<username>/flood-monitoring-iot.git
+   cd flood-monitoring-iot
+   ```
+2. Open `src/main.ino` in Arduino IDE.  
+3. Install required libraries (MQTT, SoftwareSerial, etc.).  
+4. Configure MQTT broker credentials.  
+5. Upload to Arduino Nano.  
+
+---
+
+## 📊 Testing & Results
+- **Availability:** 98.21%  
+- **Durability:** 95.76%  
+- **Average Delay:** 1156.53 ms (GSM 2G limitation)  
+- System tested continuously for 7 days.  
+
+---
+
+## 📖 Thesis Reference
+This project is based on the undergraduate thesis:  
+**"Rancang Bangun Sistem Pemantauan Real-Time Ketinggian Air dan Debit Menggunakan IoT dengan Pemanfaatan Sensor Ultrasonik JSN-SR04T dan YF-S201"**  
+Author: **Natanael Siwalette** – Politeknik Negeri Jakarta (2025)  
+
+---
+
+## 📜 License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
